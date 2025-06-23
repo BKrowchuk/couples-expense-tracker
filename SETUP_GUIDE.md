@@ -5,11 +5,13 @@
 Once you have network connectivity, follow these steps:
 
 ### 1. Install Dependencies
+
 ```bash
 npm install
 ```
 
 If you encounter network issues, try:
+
 ```bash
 # Clear npm cache
 npm cache clean --force
@@ -40,8 +42,8 @@ const firebaseConfig = {
   projectId: "your-project-id",
   storageBucket: "your-project.appspot.com",
   messagingSenderId: "123456789012",
-  appId: "1:123456789012:web:abcdef123456789"
-}
+  appId: "1:123456789012:web:abcdef123456789",
+};
 ```
 
 ### 3. Firestore Security Rules
@@ -60,6 +62,7 @@ service cloud.firestore {
 ```
 
 ### 4. Run the App
+
 ```bash
 npm run dev
 ```
@@ -108,14 +111,17 @@ The app will be available at `http://localhost:3000`
 ### Common Issues:
 
 1. **"Firebase is not defined"**
+
    - Check that you've replaced the Firebase config with real values
    - Ensure Firebase project has Firestore enabled
 
 2. **"Permission denied"**
+
    - Verify Firestore security rules are set correctly
    - Check that your Firebase project is active
 
 3. **"Network error"**
+
    - Check internet connection
    - Try clearing npm cache: `npm cache clean --force`
 
@@ -140,4 +146,4 @@ After basic setup:
 4. **Analytics**: Add expense reporting and charts
 5. **PWA**: Make it installable as a mobile app
 
-Happy coding! 🚀 
+Happy coding! 🚀
