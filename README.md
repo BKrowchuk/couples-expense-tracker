@@ -82,10 +82,6 @@ npm run preview
 
 ## Usage
 
-### Login
-- Enter either "b" or "m" (case-insensitive) as your username
-- The username is stored locally and used to tag your expenses
-
 ### Adding Expenses
 1. Fill in the expense form with:
    - **Amount**: The expense amount (required)
