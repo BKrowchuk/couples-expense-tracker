@@ -94,3 +94,5 @@ npm run deploy:gh-pages
 - The app will be available at: `https://your-github-username.github.io/couples-expense-tracker`
 - Firebase database connectivity will work as long as the environment variables are properly configured
 - The deployment is automatic on every push to the main branch
+
+-just push main?
